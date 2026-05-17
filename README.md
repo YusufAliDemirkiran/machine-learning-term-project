@@ -24,4 +24,3 @@ data/raw/       Raw dataset
 notebooks/      Main analysis notebook
 figures/        Generated figures
 slides/         Presentation slides
-src/            Optional Python scripts
