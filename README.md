@@ -4,8 +4,6 @@
 
 This project predicts hourly total electricity generation using real-time production data from 1 June 2025 to 1 September 2025.
 
-The task is formulated as a supervised regression problem.
-
 ## Models
 
 - Decision Tree Regressor
