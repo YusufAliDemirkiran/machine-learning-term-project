@@ -11,9 +11,9 @@ This project predicts hourly total electricity consumption using real-time produ
 
 ## Target Variable
 
-The target variable is `Tuketim`, total electricity comsumption.
+The target variable is `Tuketim`, total electricity consumption.
 
-To avoid target leakage, same-time source production columns are not used directly to predict same-time total generation. Instead, calendar features, lag features, and rolling historical features are used.
+To avoid feature availability leakage, same-time source production columns are not used directly to predict same-time total generation. Instead, calendar features, lag features, and rolling historical features are used.
 
 ## Repository Structure
 
