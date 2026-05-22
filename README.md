@@ -2,23 +2,40 @@
 
 ## Project Description
 
-This project predicts hourly total electricity consumption using real-time production data from 1 June 2025 to 1 September 2025.
+This project predicts hourly electricity consumption using real-time electricity consumption and production data from 1 June 2025 to 1 September 2025.
+
+The task is formulated as a supervised regression problem.
+
+## Target Variable
+
+The target variable is `Tuketim`, the hourly electricity consumption value.
+
+To avoid feature availability leakage, same-time consumption and same-time production values are not used as input features. Instead, the model uses calendar features, lagged consumption values, lagged production values, and rolling historical statistics.
 
 ## Models
+
+The following models are implemented and compared:
 
 - Decision Tree Regressor
 - XGBoost Regressor
 
-## Target Variable
+## Methodology
 
-The target variable is `Tuketim`, total electricity consumption.
+The project uses:
 
-To avoid feature availability leakage, same-time source production columns are not used directly to predict same-time total generation. Instead, calendar features, lag features, and rolling historical features are used.
+- Data loading and preprocessing
+- Exploratory data analysis
+- Calendar, lag, and rolling feature engineering
+- Chronological train/test split
+- TimeSeriesSplit validation
+- Hyperparameter tuning
+- RMSE, MAE, and R² evaluation
+- Feature importance analysis
 
 ## Repository Structure
 
 ```text
-data/raw/       Raw dataset
-notebooks/      Main analysis notebook
-figures/        Generated figures
-slides/         Presentation slides
+data/raw/          Raw production and consumption datasets
+notebooks/         Main analysis notebook
+figures/results/   Generated figures and result tables
+slides/            Final presentation PDF
