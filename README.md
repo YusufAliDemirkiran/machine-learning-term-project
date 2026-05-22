@@ -48,3 +48,27 @@ cd machine-learning-term-project
 pip install -r requirements.txt
 jupyter notebook notebooks/main_analysis.ipynb
 ```
+## How to Run
+
+### Setup & Installation
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/YusufA15DamGckSras/machine-learning-term-project.git](https://github.com/YusufA15DamGckSras/machine-learning-term-project.git)
+cd machine-learning-term-project
+
+# 2. Create and activate a virtual environment (Optional but recommended)
+python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# 3. Install the required dependencies
+pip install -r requirements.txt
+
+### Running the Notebook
+jupyter notebook notebooks/main_analysis.ipynb
+
+### Running the CLI Demo App
+python src/app.py -h
