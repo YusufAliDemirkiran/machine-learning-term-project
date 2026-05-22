@@ -39,3 +39,12 @@ data/raw/          Raw production and consumption datasets
 notebooks/         Main analysis notebook
 figures/results/   Generated figures and result tables
 presentation/      Presentation PDF
+```
+## How to run
+
+```text
+git clone https://github.com/YusufAliDemirkiran/machine-learning-term-project.git
+cd machine-learning-term-project
+pip install -r requirements.txt
+jupyter notebook notebooks/main_analysis.ipynb
+```
