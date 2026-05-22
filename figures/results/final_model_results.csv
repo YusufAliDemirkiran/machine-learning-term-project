@@ -1,0 +1,5 @@
+,RMSE,MAE,R2
+Decision Tree Baseline,1011.92,739.688,0.969
+Decision Tree Tuned,1004.1,759.149,0.969
+XGBoost Baseline,852.223,647.496,0.978
+XGBoost Tuned,784.412,591.911,0.981
