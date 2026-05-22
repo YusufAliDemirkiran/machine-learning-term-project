@@ -38,4 +38,4 @@ The project uses:
 data/raw/          Raw production and consumption datasets
 notebooks/         Main analysis notebook
 figures/results/   Generated figures and result tables
-presentation/            Presentation PDF
+presentation/      Presentation PDF
