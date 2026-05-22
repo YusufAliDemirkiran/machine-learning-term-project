@@ -52,6 +52,7 @@ data/raw/          Raw production and consumption datasets
 notebooks/         Main analysis notebook
 figures/results/   Generated figures and result tables
 presentation/      Presentation PDF
+src/               Optional CLI demo app
 ```
 
 ## How to Run
