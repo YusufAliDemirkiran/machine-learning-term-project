@@ -40,14 +40,7 @@ notebooks/         Main analysis notebook
 figures/results/   Generated figures and result tables
 presentation/      Presentation PDF
 ```
-## How to run - Notebook
 
-```text
-git clone https://github.com/YusufAliDemirkiran/machine-learning-term-project.git
-cd machine-learning-term-project
-pip install -r requirements.txt
-jupyter notebook notebooks/main_analysis.ipynb
-```
 ## How to Run
 
 ### Setup & Installation
@@ -66,9 +59,12 @@ source venv/bin/activate
 
 # 3. Install the required dependencies
 pip install -r requirements.txt
-
+```
 ### Running the Notebook
+```
 jupyter notebook notebooks/main_analysis.ipynb
-
+```
 ### Running the CLI Demo App
+```
 python src/app.py -h
+```
