@@ -61,3 +61,24 @@ jupyter notebook notebooks/main_analysis.ipynb
 ```
 python src/app.py -h
 ```
+Run model comparison:
+
+```
+python src/app.py compare
+```
+Predict consumption for a timestamp inside the available dataset:
+```
+python src/app.py predict "2025-08-20 14:00"
+```
+Use the tuned Decision Tree instead of tuned XGBoost:
+```
+python src/app.py predict "2025-08-20 14:00" --model decision_tree
+```
+List saved result files:
+```
+python src/app.py figures
+```
+Open a saved figure:
+```
+python src/app.py open-figure final_model_rmse_comparison
+```
