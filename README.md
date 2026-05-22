@@ -40,7 +40,7 @@ notebooks/         Main analysis notebook
 figures/results/   Generated figures and result tables
 presentation/      Presentation PDF
 ```
-## How to run
+## How to run - Notebook
 
 ```text
 git clone https://github.com/YusufAliDemirkiran/machine-learning-term-project.git
