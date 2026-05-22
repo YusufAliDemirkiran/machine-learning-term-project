@@ -1,5 +1,18 @@
 # Machine Learning Term Project
 
+## Table of Contents
+- [Project Description](#project-description)
+- [Target Variable](#target-variable)
+- [Models](#models)
+- [Methodology](#methodology)
+- [Repository Structure](#repository-structure)
+- [How to Run](#how-to-run)
+  - [Setup & Installation](#setup--installation)
+  - [Running the Notebook](#running-the-notebook)
+  - [Running the CLI Demo App](#running-the-cli-demo-app)
+
+---
+
 ## Project Description
 
 This project predicts hourly electricity consumption using real-time electricity consumption and production data from 1 June 2025 to 1 September 2025.
